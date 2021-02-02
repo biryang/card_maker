@@ -1,0 +1,14 @@
+@value makerGrey from  './common/colors.css';
+
+/* 균일하지 않은경우 박스사이즈 문제인 경우가 있음 */
+* {
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: makerGrey;
+}
